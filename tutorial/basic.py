@@ -5,7 +5,7 @@ import torch.autograd as autograd#自动求导
 
 #create 1D vector
 V_data = [1., 2., 3.]
-V = torch.Tensor(V_data)#我用的是pyCharm编辑器，输入torch给的提示没有Tensor函数，其实是有的
+V = torch.Tensor(V_data)#pyCharm输入torch给的提示没有Tensor函数，但其实是有的
 print(V)
 
 
