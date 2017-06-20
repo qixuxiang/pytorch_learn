@@ -33,6 +33,14 @@ print(r)
 #tensor计算
 x = torch.Tensor([1., 2., 3.])
 y = torch.Tensor([4., 5., 6.])
+print('----test cuda begin----')
+#Tensors can be moved onto GPU using the .cuda function
+if torch.cuda.is_available():
+    x = x.cuda()
+    y = y.cuda()
+    print(x + y)
+
+print('---test cuda end----')
 z = x + y
 print(z)
 
