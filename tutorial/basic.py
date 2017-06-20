@@ -1,9 +1,7 @@
 # -*- coding:utf-8 -*-
 import torch#基本的torch函数
 import torch.autograd as autograd#自动求导
-import torch.nn as nn#神经网络类都在这个里面
-import torch.nn.functional as F#几乎所有的激励函数
-import torch.optim as optim#优化
+
 
 #create 1D vector
 V_data = [1., 2., 3.]
